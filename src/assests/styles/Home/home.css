@@ -1,0 +1,25 @@
+.home-header {
+  text-align: center;
+  padding-top: 12%;
+  color: white;
+  height: 89vh;
+}
+
+.home-header h1 {
+  font-weight: lighter;
+  font-size: 3.2em;
+}
+
+.home-header .header-sub h6 {
+  font-weight: inherit;
+  font-size: 1.2em;
+}
+
+.home-header .egg img:hover {
+  cursor: pointer;
+}
+
+.home-header .egg img {
+  margin-top: 8%;
+  max-width: 1%;
+}

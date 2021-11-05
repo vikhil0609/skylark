@@ -1,0 +1,123 @@
+.business .business-head {
+  text-align: center;
+  will-change: transform, box-shadow, z-index;
+}
+
+.business .business-head h1 {
+  margin-top: 5%;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.business .business-head h4 {
+  margin-top: -1%;
+  font-size: 1em;
+  color: grey;
+}
+
+.image_box {
+  overflow-x: auto;
+  /* overflow: hidden; */
+  position: relative;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  margin: 5px;
+  min-width: 310px;
+  height: 580px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 2px 10px 12px rgba (0, 0, 0, 0.5);
+  transition: 1s;
+  overflow: hidden;
+  position: relative;
+}
+
+.business-head h1 {
+  color: white;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 20px;
+  color: white;
+  opacity: 0.7;
+}
+
+#first,
+#last {
+  height: 530px;
+  overflow: hidden;
+}
+
+#hover {
+  transition: 1s;
+  height: 630px;
+}
+
+#second {
+  background-image: url("../../images/close-up.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#secondlast {
+  background-image: url("../../images/white-foam.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mid {
+  background-image: url("../../images/top-view.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#first {
+  background-image: url("../../images/eggShell.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#last {
+  background-image: url("../../images/eggShell.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#second:hover,
+#secondlast:hover {
+  transition: 1s;
+  height: 630px;
+}
+
+#first:hover {
+  transition: 1s;
+  height: 630px;
+  margin-left: 14%;
+}
+
+#last:hover {
+  transition: 1s;
+  height: 630px;
+  margin-right: 14%;
+}
+.box div {
+  padding: 4%;
+}
+
+button {
+  border: 2px solid white;
+  margin-top: 2%;
+  text-align: center;
+  background-color: transparent;
+  padding: 2% 5%;
+  color: white;
+}
