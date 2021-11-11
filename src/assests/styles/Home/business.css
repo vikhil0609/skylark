@@ -16,8 +16,7 @@
 }
 
 .image_box {
-  overflow-x: auto;
-  /* overflow: hidden; */
+  overflow: hidden;
   position: relative;
   height: 100vh;
   background-color: white;
@@ -39,7 +38,8 @@
   position: relative;
 }
 
-.business-head h1 {
+.business-head h1,
+.box div h1 {
   color: white;
 }
 
@@ -47,7 +47,6 @@ p {
   font-size: 0.9em;
   line-height: 20px;
   color: white;
-  opacity: 0.7;
 }
 
 #first,
@@ -80,7 +79,7 @@ p {
   background-size: cover;
 }
 #first {
-  background-image: url("../../images/eggShell.jpg");
+  background-image: url("../../images/tractor.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

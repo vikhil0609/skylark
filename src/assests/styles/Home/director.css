@@ -1,0 +1,41 @@
+.director {
+  background-color: #e5e5e5;
+  width: 100%;
+  padding: 0% 10%;
+  padding-bottom: 5%;
+}
+
+.director-heading {
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 2%;
+}
+
+.director-content {
+  display: flex;
+  justify-content: space-between;
+}
+.director-left {
+  width: 40%;
+  margin-left: 5%;
+}
+.director-left h2 {
+  color: #37b0a1;
+  font-weight: bold;
+}
+
+.director-left h4 {
+  color: #4b5159;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.director-left p {
+  color: #70757b;
+}
+.director-right {
+  margin-right: 10%;
+}
+.director-right img {
+  height: 70vh;
+}

@@ -1,0 +1,65 @@
+.sustainable {
+  height: 100vh;
+  background-color: #eff9f8;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  display: flex;
+}
+
+.sustain-heading {
+  width: 50%;
+}
+
+.sustain-heading p {
+  margin-top: 5%;
+  color: grey;
+  font-size: 1em;
+  line-height: 25px;
+  width: 75%;
+}
+.sustain-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 3%;
+}
+
+.sustain-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.biogas {
+  width: 320px;
+  height: 450px;
+  background-image: url("../../images/Sustainable_1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-right: 40px;
+  /* box-shadow: 5px 10px grey; */
+}
+.fertilizer {
+  width: 320px;
+  height: 450px;
+  background-image: url("../../images/Sustainable_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-right: 40px;
+  /* box-shadow: 5px 10px grey; */
+}
+
+.sustain-right-head {
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+}
+
+.sustain-right-head h3 {
+  font-size: 2em;
+  font-weight: bold;
+}

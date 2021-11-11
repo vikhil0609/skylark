@@ -1,0 +1,64 @@
+.parivar-head {
+  margin-top: 5%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: grey;
+}
+
+.carousel {
+  background-color: #eff9f8;
+  height: 80vh;
+}
+
+.carousel-heading {
+  padding-top: 1%;
+  text-align: center;
+}
+.carousel-heading p {
+  font-size: 1.5em;
+  color: #70757b;
+}
+.carousel-description {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 12%;
+  display: flex;
+}
+.carousel-description img {
+  width: 20%;
+  height: 30vh;
+  margin-top: 3%;
+}
+.carousel-sub-description {
+  margin-left: 15%;
+  color: #37b0a1;
+}
+.sub-text {
+  margin-top: 5%;
+  width: 75%;
+}
+.sub-text p {
+  font-size: 1.2em;
+  line-height: 30px;
+  color: #70757b;
+}
+.stats {
+  display: flex;
+  margin-top: 5%;
+  margin-right: 25%;
+  justify-content: space-between;
+}
+.stats div h1 {
+  text-align: center;
+  color: #007464;
+}
+.stats div h4 {
+  color: grey;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #37b0a1;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+}

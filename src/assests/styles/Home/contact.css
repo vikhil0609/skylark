@@ -44,12 +44,11 @@
 }
 
 .contact-home .contact-us {
-  margin-top: 5%;
   background-color: #ccffee;
   padding-left: 5%;
   padding-right: 5%;
-  width: 150%;
   display: flex;
+  justify-content: space-between;
   height: 40vh;
 }
 .contact-home .contact-us div {
@@ -80,12 +79,12 @@
   margin-top: 5%;
 }
 
-.contact-home .contact-us .footer {
+.contact-home .contact-us div .footer {
   margin-top: 3%;
   display: flex;
   float: right;
 }
 
-.contact-home .contact-us .footer i {
-  padding-right: 30%;
+.contact-home .contact-us div .footer i {
+  padding-left: 20%;
 }
