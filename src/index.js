@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./pages/Home"
 import NavBar from "./components/Navbar";
 import Contact from "./components/Home/contact"
+import Global from "./components/Home/global"
 
 ReactDOM.render(
     <div>

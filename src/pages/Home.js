@@ -6,6 +6,7 @@ import Parivar from "../components/Home/parivar";
 import Sustainable from "../components/Home/sustainable";
 import Footer from "../components/Footer";
 import Director from "../components/Home/director";
+import Global from "../components/Home/global";
 
 class HomePage extends Component {
     render(){
@@ -17,6 +18,7 @@ class HomePage extends Component {
             </div>
             <Business />
             <Parivar />
+            <Global />
             <Director />
             <Sustainable />
             <Footer />

@@ -6,6 +6,7 @@ html {
   margin-left: 4%;
   margin-right: 4%;
   display: flex;
+  margin-bottom: 5%;
 }
 
 .imgnone {
@@ -16,7 +17,7 @@ html {
   margin-left: 11.5%;
 }
 .headimg img {
-  max-width: 35%;
+  width: 35%;
   z-index: 999;
   margin-top: -10%;
 }

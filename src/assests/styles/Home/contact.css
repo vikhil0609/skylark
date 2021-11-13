@@ -27,24 +27,22 @@
 .contact-home .our-offices .details {
   display: flex;
   justify-content: space-between;
-  padding: 2% 15%;
-}
-
-.contact-home .our-offices .details div img {
-  width: 100px;
-  height: 100px;
+  margin-top: 5%;
+  margin-left: 15%;
   margin-right: 10%;
-  margin-left: 10px;
+  margin-bottom: 10%;
 }
-.contact-home .our-offices .details div div {
-  margin-top: 15%;
-  padding-right: 20px;
-  width: 150px;
+.contact-home .our-offices .details div {
   text-align: center;
 }
 
+.contact-home .our-offices .details div div {
+  padding-top: 10%;
+  width: 100%;
+  color: #70757b;
+}
+
 .contact-home .contact-us {
-  background-color: #ccffee;
   padding-left: 5%;
   padding-right: 5%;
   display: flex;
@@ -56,7 +54,7 @@
 }
 
 .contact-home .contact-us div img {
-  width: 20%;
+  width: 25%;
 }
 
 .contact-home .contact-us #about_us {
@@ -80,7 +78,7 @@
 }
 
 .contact-home .contact-us div .footer {
-  margin-top: 3%;
+  margin-top: 80%;
   display: flex;
   float: right;
 }

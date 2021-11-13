@@ -1,0 +1,59 @@
+.global {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.global-heading {
+  text-align: center;
+}
+
+.global-heading p {
+  color: #70757b;
+  font-size: 20px;
+}
+
+.global-content {
+  padding-top: 10%;
+}
+
+.global-content p {
+  padding-top: 10%;
+  color: #70757b;
+}
+
+.global-content .contentFirst {
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+.global-content .contentFirst div {
+  padding-right: 20%;
+}
+
+.global-content .contentFirst div div {
+  display: flex;
+}
+.global-content .contentFirst div div img {
+  max-width: 40px;
+  padding-right: 10px;
+}
+
+.global-content .contentSecond {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.global-content .contentSecond div {
+  padding-left: 10%;
+}
+
+.global-content .contentSecond div div img {
+  max-width: 40px;
+}
+
+.global-content .contentSecond div div {
+  display: flex;
+}
