@@ -2,11 +2,11 @@ import React , {Component} from "react";
 import "../../assests/styles/Home/contact.css"
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { InputGroup , FormControl,Button } from "react-bootstrap";
-import call from "../../assests/images/call.png"
-import Location from "../../assests/images/location.png"
-import Email from "../../assests/images/email.png"
+import call from "../../assests/images/PhoneNew.png"
+import Location from "../../assests/images/Maps.png"
+import Email from "../../assests/images/Mail.png"
 import '../../../node_modules/font-awesome/css/font-awesome.min.css'; 
-import Map from "./maps.js";
+import Maps from "./maps.js";
 import Footer from "../Footer"
 
 class contact extends Component{
@@ -32,7 +32,7 @@ class contact extends Component{
             </InputGroup>
             </div>
             <div className="maps">
-                <Map />
+                <Maps />
             </div>
             <div className="our-offices">
                 <h1 style={{textAlign:"center"}}>
@@ -48,9 +48,9 @@ class contact extends Component{
                     <div id="location">
                         <img src={Location} />
                         <div>
-                            Dharamgarh Bohil ROad
-                            Safidon, Dist. JInd 
-                            Haryana - 126112
+                            Dharamgarh Bohil Road<br/>
+                            Safidon, Dist. JInd <br/>
+                            Haryana - 126112<br/>
                             India
 
                         </div>

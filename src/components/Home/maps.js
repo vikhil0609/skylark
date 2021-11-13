@@ -1,47 +1,31 @@
-import React from 'react';
-import GoogleMapReact from 'google-map-react';
-import "../../assests/styles/Home/maps.css"
+import React, { Component } from 'react';
+import { Map, GoogleApiWrapper } from 'google-maps-react';
 
-const Map = () => {
-    const mapCenter = { lat: 28.419485, lng: 77.038512 };
-    const mapZoom = 11;
-    const Marker = ({ text }) => <div className="map-marker"></div>;
-    function mapOptions(maps) {
-        // next props are exposed at maps
-        // "Animation", "ControlPosition", "MapTypeControlStyle", "MapTypeId",
-        // "NavigationControlStyle", "ScaleControlStyle", "StrokePosition", "SymbolPath", "ZoomControlStyle",
-        // "DirectionsStatus", "DirectionsTravelMode", "DirectionsUnitSystem", "DistanceMatrixStatus",
-        // "DistanceMatrixElementStatus", "ElevationStatus", "GeocoderLocationType", "GeocoderStatus", "KmlLayerStatus",
-        // "MaxZoomStatus", "StreetViewStatus", "TransitMode", "TransitRoutePreference", "TravelMode", "UnitSystem"
-        return {
-            panControl: false,
-            mapTypeControl: false,
-            scrollwheel: false,
-            // zoomControlOptions: {
-            //     position: maps.ControlPosition.RIGHT_CENTER,
-            //     style: maps.ZoomControlStyle.SMALL
-            // },
-            // mapTypeControlOptions: {
-            //     position: maps.ControlPosition.TOP_RIGHT
-            // },
-            // mapTypeControl: false,
-          styles: [{ stylers: [{ 'saturation': -100 }, { 'gamma': 0.8 }, { 'lightness': 4 }, { 'visibility': 'off' }] }]
-        };
-    }
+const mapStyles = {
+  width: '90%',
+  height: '100%',
+  borderRadius:"15px",
+  marginLeft:"5%",
+};
 
+export class MapContainer extends Component {
+  render() {
     return (
-        <div className="map">
-            <GoogleMapReact bootstrapURLKeys={{ key: "AIzaSyAmTjism8nfKMegHTdL4YYrQdsx7X8J8Do'" }} defaultCenter={mapCenter} defaultZoom={mapZoom}>
-                <Marker lat={mapCenter.lat} lng={mapCenter.lng} text="My Marker" /> 
-            </GoogleMapReact>
-            {/* options={mapOptions} */}
-            {/* bootstrapURLKeys={{ key: "AIzaSyDR0s-GYwCEjqdpsoXBsdoOpD65xz2cUcE" }} */}
-            {/* bootstrapURLKeys={{ key: "AIzaSyCahcnS5Io_grobJbK57Vr4QPn2FAqDLw0" }} */}
-            {/* options={{ styles: mapStyles }} */}
-            {/* AIzaSyDR0s-GYwCEjqdpsoXBsdoOpD65xz2cUcE */}
-        </div>
-
-   );
+      <Map
+        google={this.props.google}
+        zoom={14}
+        style={mapStyles}
+        initialCenter={
+          {
+            lat: -1.2884,
+            lng: 36.8233
+          }
+        }
+      />
+    );
+  }
 }
- 
-export default Map;
+
+export default GoogleApiWrapper({
+  apiKey: 'AIzaSyDR0s-GYwCEjqdpsoXBsdoOpD65xz2cUcE'
+})(MapContainer);
