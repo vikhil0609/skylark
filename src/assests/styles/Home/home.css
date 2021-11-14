@@ -2,7 +2,7 @@
   text-align: center;
   padding-top: 12%;
   color: white;
-  height: 89vh;
+  height: 100vh;
 }
 
 .home-header h1 {
@@ -20,6 +20,6 @@
 }
 
 .home-header .egg img {
-  margin-top: 8%;
+  margin-top: 15%;
   max-width: 1%;
 }

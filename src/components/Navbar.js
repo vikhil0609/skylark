@@ -22,7 +22,7 @@ class Navbar extends React.Component{
       }
 
       componentWillUnmount() {
-        window.addEventListener('scroll', this.handleScroll);
+        window.removeEventListener('scroll', this.handleScroll);
       }
 
       handleScroll(event) {
