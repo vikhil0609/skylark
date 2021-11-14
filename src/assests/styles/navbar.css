@@ -4,7 +4,7 @@ html {
 .header .menuA {
   padding-top: 3%;
   margin-left: 4%;
-  margin-right: 4%;
+  margin-right: 0%;
   display: flex;
   margin-bottom: 5%;
 }
@@ -18,19 +18,22 @@ html {
 }
 .headimg img {
   width: 35%;
-  z-index: 999;
+  /* z-index: 999; */
   margin-top: -10%;
 }
 
-.header .menuA .nav-left #navid,
+.header .menuA .nav-left #navid {
+  text-decoration: none;
+  padding-left: 100px;
+  font-weight: 600px;
+}
 .header .menuA .nav-right #navid {
   text-decoration: none;
-  padding: 50px;
+  padding-right: 100px;
   font-weight: 600px;
 }
 
 .nav-sub {
-  z-index: 999;
   margin-top: 20%;
 }
 

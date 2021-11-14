@@ -11,15 +11,38 @@ class Navbar extends React.Component{
         this.state = {
             active :"home" ,
             isPositionFixed: false,
-            isImage : props.isimage,
-            color:props.color
+            isImage : true,
+            color:"green"
         }
+        this.handleScroll = this.handleScroll.bind(this);
       }
+
+      componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+      }
+
+      componentWillUnmount() {
+        window.addEventListener('scroll', this.handleScroll);
+      }
+
+      handleScroll(event) {
+        let scrollTop = event.srcElement.body.scrollTop,
+        itemTranslate = Math.min(0, scrollTop/3 - 60);
+  
+  
+        if(event.srcElement.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+            jQuery("#Scroll").css({"background-color":"white",position:"fixed",width:"100%",height:"15vh"})
+             this.setState({isPositionFixed: true,color:"green"});
+          }
+             else{  
+               jQuery("#Scroll").css({"background-color":"transparent",position:"absolute"})
+             this.setState({isPositionFixed: false,color:"white"});
+    }
+}
     render(){
     return(
-    <div id="Scroll" className="header-wrap" style={{backgroundColor:"transparent"}} >
+    <div id="Scroll" className= {`header-wrap${this.state.isPositionFixed ? ' fixed' : ""}`} style={{backgroundColor:"transparent"}} onScroll = {this.handleScroll} >
     <div className="header">
-        
         <div className="menuA">
             <div className="nav-left">
             <NavLink id="navid" to="/" activeClassName="circle" style={{color:this.state.color}}>
@@ -32,7 +55,7 @@ class Navbar extends React.Component{
                 GALLERY
             </NavLink>
         </div>
-        <div className={` ${this.state.isImage === true ? "headimg" : "imgnone"}`}>
+        <div className="headimg">
             <img src={Logo} /></div>
         <div className="nav-right">
             <NavLink id="navid" to="/quality" style={{color:this.state.color}} >
