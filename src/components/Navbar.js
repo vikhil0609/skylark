@@ -12,7 +12,8 @@ class Navbar extends React.Component{
             active :"home" ,
             isPositionFixed: false,
             isImage : true,
-            color:"green"
+            color:props.color,
+
         }
         this.handleScroll = this.handleScroll.bind(this);
       }
@@ -30,13 +31,13 @@ class Navbar extends React.Component{
         itemTranslate = Math.min(0, scrollTop/3 - 60);
   
   
-        if(event.srcElement.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
-            jQuery("#Scroll").css({"background-color":"white",position:"fixed",width:"100%",height:"15vh"})
-             this.setState({isPositionFixed: true,color:"green"});
+        if(event.srcElement.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+            jQuery(".menuA").css({"background-color":"rgba(255,255,255)",position:"fixed"})
+            this.setState({color:"green"});
           }
              else{  
-               jQuery("#Scroll").css({"background-color":"transparent",position:"absolute"})
-             this.setState({isPositionFixed: false,color:"white"});
+               jQuery(".menuA").css({"background-color":"transparent",position:"sticky"})
+               this.setState({color:"#75B8AD"});
     }
 }
     render(){

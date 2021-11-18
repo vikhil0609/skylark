@@ -20,6 +20,12 @@
   color: #70757b;
 }
 
+.backgroundCountry {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+}
+
 .global-content .contentFirst {
   display: flex;
   justify-content: center;
@@ -28,6 +34,7 @@
 }
 .global-content .contentFirst div {
   padding-right: 20%;
+  padding-top: 10%;
 }
 
 .global-content .contentFirst div div {
@@ -40,14 +47,13 @@
 
 .global-content .contentSecond {
   margin-top: 10%;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-right: 10%;
   display: flex;
-  justify-content: center;
 }
 
 .global-content .contentSecond div {
-  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .global-content .contentSecond div div img {

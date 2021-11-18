@@ -2,6 +2,9 @@ import React from "react";
 import "../../assests/styles/Home/global.css"
 import Ghana from "../../assests/images/Flag_of_Ghana.png"
 import Myanmar from "../../assests/images/Flag_of_Myanmar.png"
+import Srilanka from "../../assests/images/Flag_of_Sri_Lanka.png"
+import BgGhana from "../../assests/images/Ghana.png"
+import BgMyanmar from "../../assests/images/myanmar.png"
 
 class Global extends React.Component{
     render(){
@@ -14,6 +17,7 @@ class Global extends React.Component{
                 <div className="global-content">
                     <div className="contentFirst">
                         <div>
+                        <img className="backgroundCountry" src={BgGhana} />
                             <h2>Park Agrotech 
                                 <br />Pvt. Ltd</h2>
                             <div>
@@ -27,6 +31,7 @@ class Global extends React.Component{
                                    Skylark Hatcheries in 2015</p>
                         </div>
                         <div>
+                        <img className="backgroundCountry" src={BgMyanmar} />
                             <h2>Skylark Sunline
                                 <br /> Company Ltd.</h2>
                             <div>
@@ -42,11 +47,13 @@ class Global extends React.Component{
                         </div>
                         <div className="contentSecond">
                         <div>
+                        <img className="backgroundCountry" src={BgGhana} />
+                            
                             <h2>Park Agrotech 
                                 <br />Pvt. Ltd</h2>
                             <div>
-                                <img src={Ghana} />
-                                Ghana
+                                <img src={Srilanka} />
+                                SriLanka
                             </div>
                             <p>A solution driven step to reoreint and 
                                 modernize the poultry sector of Ghana
@@ -55,6 +62,7 @@ class Global extends React.Component{
                                    Skylark Hatcheries in 2015</p>
                         </div>
                         <div>
+                        <img className="backgroundCountry" src={BgGhana} />
                             <h2>Skylark Sunline
                                 <br /> Company Ltd.</h2>
                             <div>
@@ -68,6 +76,7 @@ class Global extends React.Component{
                                   Skylark Hatcheries in 2015</p>
                         </div>
                         <div>
+                        <img className="backgroundCountry" src={BgGhana} />
                             <h2>Skylark Sunline
                                 <br /> Company Ltd.</h2>
                             <div>

@@ -18,9 +18,9 @@ class HomePage extends Component {
             </div>
             <Business />
             <Parivar />
+            <Sustainable />
             <Global />
             <Director />
-            <Sustainable />
             <Footer />
         </div>
         );

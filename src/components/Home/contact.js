@@ -64,7 +64,7 @@ class contact extends Component{
                 </div>
             </div>
             <div>
-                <Footer />
+                <Footer color={"#EFF9F8"} />
             </div>
             </div>
             )

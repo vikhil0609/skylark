@@ -6,6 +6,7 @@ const mapStyles = {
   height: '100%',
   borderRadius:"15px",
   marginLeft:"5%",
+  zIndex:"-1"
 };
 
 export class MapContainer extends Component {

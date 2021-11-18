@@ -3,10 +3,11 @@ html {
 }
 .header .menuA {
   padding-top: 3%;
-  margin-left: 4%;
-  margin-right: 0%;
+  padding-left: 4%;
+  width: 100%;
   display: flex;
-  margin-bottom: 5%;
+  overflow: hidden;
+  transition: 1s;
 }
 
 .imgnone {

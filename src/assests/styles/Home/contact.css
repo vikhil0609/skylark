@@ -7,7 +7,7 @@
 }
 
 #contact-head {
-  margin-top: 10%;
+  padding-top: 10%;
 }
 
 #contact-subhead {
@@ -89,4 +89,13 @@
 
 .contact-home .contact-us div .footer i {
   padding-left: 20%;
+}
+
+.mb-3 {
+  z-index: -1;
+  pointer-events: none;
+}
+
+#button-addon2 {
+  color: white;
 }

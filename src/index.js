@@ -8,8 +8,9 @@ import "../src/assests/styles/Home/business.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./pages/Home"
 import NavBar from "./components/Navbar";
-import Contact from "./components/Home/contact"
+import ContactPage from './pages/Contact';
 import Global from "./components/Home/global"
+import Carousell from "./components/Home/carousel"
 
 ReactDOM.render(
     <div>
@@ -19,8 +20,8 @@ ReactDOM.render(
         <HomePage />
       </Route>
         <Route exact path="/contact">
-        <NavBar color={"green"} isimage={true} />
-          <Contact />
+          <NavBar />
+          <Carousell />
         </Route>
       </Switch>
     </BrowserRouter>
