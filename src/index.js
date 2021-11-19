@@ -20,8 +20,7 @@ ReactDOM.render(
         <HomePage />
       </Route>
         <Route exact path="/contact">
-          <NavBar />
-          <Carousell />
+          <ContactPage />
         </Route>
       </Switch>
     </BrowserRouter>
