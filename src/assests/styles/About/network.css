@@ -1,0 +1,333 @@
+.network{
+    width: 100%;
+    background: linear-gradient(180deg, #FFFFFF 6.39%, rgba(239, 249, 248, 0) 48.32%, #EFF9F8 100%)
+  }
+  .company-network{
+    margin-top: 171px;
+  }
+  .head{
+      font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  
+  }
+  
+  .description{ 
+  margin-left: 7%;
+  margin-right: 7%;
+  }
+  #network-descp{
+    font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  /* letter-spacing: -0.01em; */
+  text-align: center;
+  color: #92959A;
+  }
+  
+  .imag{
+    
+    text-align: center;
+    /* margin-left: 20%; */
+    margin-top: 100px;
+  /* z-index: -1; */
+  }
+  #india-img{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .td{
+  
+      text-align: center;
+      margin: auto;
+      width: 25%;
+  }
+  
+  .ro1.row2{
+      margin: auto;
+      
+      text-align: center;
+  }
+  
+  .tabl{
+      margin-top: 100px;
+  }
+  
+  .row2{
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #92959A;
+  
+  }
+  
+  .mapicons1{
+  right: 943px;
+      top: 701px;
+      z-index: 1;
+      position: absolute;
+      left: 326px;
+      /* background: #D7EFEC; */
+   
+  }
+  
+  .mapicons2{
+  right: 1500px;
+      top: 793px;
+      z-index: 1;
+      position: absolute;
+      left: 476px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .mapicons3{
+      right: 1519px;
+      top: 884px;
+      z-index: 1;
+      position: absolute;
+      left: 375px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .mapicons4{
+  right: 1496px;
+      top: 962px;
+      z-index: 1;
+      position: absolute;
+      left: 491px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .pieicons1{
+  right: 1496px;
+      top: 962px;
+      z-index: 1;
+      position: absolute;
+      left: 491px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .pieicons1{
+  right: 1496px;
+      top: 962px;
+      z-index: 1;
+      position: absolute;
+      left: 491px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .baricons1{
+  right: 1496px;
+      top: 452px;
+      z-index: 1;
+      position: absolute;
+      left: 460px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .baricons2{
+      right: 1496px;
+      top: 596px;
+      z-index: 1;
+      position: absolute;
+      left: 532px;
+      /* background: #d7efec; */
+  
+  }
+  
+  .baricons3{
+  right: 1496px;
+      top: 833px;
+      z-index: 1;
+      position: absolute;
+      left: 336px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .baricons4{
+  right: 1503px;
+      top: 860px;
+      z-index: 1;
+      position: absolute;
+      left: 464px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .baricons5{
+      right: 1496px;
+      top: 949px;
+      z-index: 1;
+      position: absolute;
+      left: 420px;
+      /* background: #D7EFEC; */
+  }
+  
+  .baricons6{
+  right: 1496px;
+      top: 1150px;
+      z-index: 1;
+      position: absolute;
+      left: 513px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .baricons7{
+      right: 1496px;
+      top: 1195px;
+      z-index: 1;
+      position: absolute;
+      left: 424px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .officeicons1{
+      right: 1496px;
+      top: 623px;
+      z-index: 1;
+      position: absolute;
+      left: 443px;
+      /* background: #D7EFEC */
+  
+  }
+  
+  .officeicons2{
+      right: 1496px;
+      top: 705px;
+      z-index: 1;
+      position: absolute;
+      left: 570px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .officeicons3{
+      right: 1496px;
+      top: 748px;
+      z-index: 1;
+      position: absolute;
+      left: 760px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .officeicons4{
+       right: 1496px;
+      top: 706px;
+      z-index: 1;
+      position: absolute;
+      left: 958px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .officeicons5{
+      right: 1496px;
+      top: 805px;
+      z-index: 1;
+      position: absolute;
+      left: 585px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .officeicons6{
+     right: 1496px;
+      top: 907px;
+      z-index: 1;
+      position: absolute;
+      left: 715px;
+      /* background: #D7EFEC; */
+  
+  }
+  
+  .officeicons7{
+     right: 1496px;
+      top: 974px;
+      z-index: 1;
+      position: absolute;
+      left: 349px;
+      /* color: #D7EFEC; */
+  
+  }
+  
+   .map{
+  margin-top: 345%;
+   margin-left: 125px;
+   width: 25px;
+   height: 25px;
+  } 
+  
+  .my{
+      width: 25px;
+      height: 25px;
+  }
+  
+  .iconName{
+      padding-top: 20px;
+      color: #92959A;
+  
+  }
+
+.centered{
+    margin-left: 2%;
+}
+  .cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+ }
+ .cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+ }
+ .card {
+    flex: 0 1 24%;
+}
+.bank-img{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+.gitbranch-img{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+.feed-img{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+.chicken-img{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+@media screen and (max-width:400px){
+    .iconName{
+        font-size: 9px;
+        padding-top: 3px;
+    }    
+}

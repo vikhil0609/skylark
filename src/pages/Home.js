@@ -12,8 +12,8 @@ class HomePage extends Component {
     render(){
         return(
         <div>
-            <div className="home">
             <NavBar color={"white"} isimage={false} />
+            <div className="home">
             <Home />
             </div>
             <Business />

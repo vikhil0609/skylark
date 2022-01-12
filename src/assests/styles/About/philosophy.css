@@ -1,0 +1,108 @@
+.quality-head{
+    padding-top:120px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 7vh;
+    line-height: 10vh;
+    text-align: center;
+    
+  }
+  .quality-names{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 117px;
+  }
+  #big-circle div{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 74px;
+    color: #E7F6F4;
+    height: 480px ;
+    width: 480px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; /* may require vendor prefixes */
+    background: #007464;
+    transition: 2s;
+  }
+  #small-circle1 div:hover{
+    cursor: pointer;
+  }
+  #small-circle2 div:hover{
+    cursor: pointer;
+  }
+  #big-circle div:hover{
+    cursor: pointer;
+  }
+  #small-circle1 div{
+    width: 320px;
+    height: 320px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    color: #007464;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; 
+    background: rgba(59, 176, 160, 0.3);
+    /* opacity: 0.4; */
+    transition: 2s;
+  }
+
+  #small-circle2 div{
+    width: 320px;
+    height: 320px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 52px;
+    /* or 144% */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+    margin-top: 39px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #3BB0A0;
+    transition: 2s;
+  }
+
+  #small-circle2{
+    padding-top: 39px;
+  }
+  @media screen and (max-width: 890px){
+    .quality-philosophy{
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+    #big-circle div{
+      width: 350px;
+      height: 350px;
+      font-size: 28px;
+      line-height: 50px;
+    }
+    #small-circle1 div{
+      width: 190px;
+      height: 190px;
+      font-size: 16px;
+      line-height: 30px;
+    }
+    #small-circle2 div{
+      width: 190px;
+      height: 190px;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }

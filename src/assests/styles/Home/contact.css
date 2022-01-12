@@ -1,4 +1,4 @@
-.contact-home {
+/* .contact-home {
   width: 100%;
 }
 
@@ -98,4 +98,178 @@
 
 #button-addon2 {
   color: white;
+} */
+
+
+          
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.contact-rounded{
+  border-style: none;
+  width: 50%;
+  background: #F4F4F5;
+  line-height:3em;
+  
+
+}
+
+.contact-searchicon{
+  padding-left:2%;
+  border-style: none;
+  background: #F4F4F5;
+  color: #70757B;
+  line-height:70%;
+  font-size: 1.5em;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.contact-search{
+  line-height: 3em;
+  border-style: none;
+  background: #3BB0A0;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius: unset;
+  border-top-left-radius: unset;
+  color: #FFFFFF;
+  padding-bottom: 1px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+
+
+}
+
+.contact-tab{
+  margin-top: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-images{
+  width: 33%;
+  text-align: center;
+}
+
+.contact-text{
+  color: #70757B;
+  font-family:Inter;
+  font-style: normal;
+
+}
+
+.contact-text2{
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.contact-title3{
+  color: #4B5159;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.contact-column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.contact-row {margin: 0 -5px;
+display: flex;}
+
+/* Clear floats after the columns */
+.contact-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .contact-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .contact-row{
+    display: block;
+  }
+
+}
+
+/* Style the counter cards */
+.contact-card {
+  padding: 16px;
+  text-align: center;
+  background-color:white;
+  color: #70757B;
+}
+
+.contact-head-desc{
+  color: #70757B;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+}
+
+.contact-desc{
+  padding-left:32% ;
+  padding-right: 30%;
+  color: #70757B;
+  margin-top: 5%;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

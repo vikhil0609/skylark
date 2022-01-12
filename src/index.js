@@ -11,7 +11,7 @@ import NavBar from "./components/Navbar";
 import ContactPage from './pages/Contact';
 import Global from "./components/Home/global"
 import Carousell from "./components/Home/carousel"
-
+import AboutUs from './pages/AboutUs'
 ReactDOM.render(
     <div>
     <BrowserRouter>
@@ -22,6 +22,9 @@ ReactDOM.render(
         <Route exact path="/contact">
           <ContactPage />
         </Route>
+      <Route exact path="/about" >
+        <AboutUs />
+      </Route>
       </Switch>
     </BrowserRouter>
   </div>,

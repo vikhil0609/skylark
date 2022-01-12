@@ -1,0 +1,155 @@
+.team{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#team-heading{
+    padding-top: 164px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vh;
+    line-height: 56px;
+    text-align: center;
+  }
+#team-subhead{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5vh;
+  line-height: 32px;
+  text-align: center;
+  color: #92959A;
+}
+/* .team-members{
+  margin-top: 79.56px;
+  margin-right: 7%;
+  width: 100%;
+  display: flex;
+}
+.team-members:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.member {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+@media screen and (max-width: 900px) {
+  .member {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.member{
+  padding-left: 9%;
+  
+}
+.image{
+  width: 327.8px;
+  height: 312.44px;
+}
+.member.member-name{
+  text-align: center;
+}
+#name{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+.member.member-position{
+  text-align: center;
+}
+#position{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #70757B;
+}
+.member.member-quote{
+  
+  text-align: center;
+  margin: 16px 0px;
+}
+#quote{
+  width: 316px;
+  height: 168px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+  color: #92959A;
+} */
+.member {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+#position{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #70757B;
+}
+.member-name #name{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #2C323C;
+}
+#quote{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 42px;
+  color: #92959A;
+}
+/* Remove extra left and right margins, due to padding */
+.team-members {
+  margin: 0 -5px;
+  margin-top: 79.56px;
+}
+
+/* Clear floats after the columns */
+.team-members:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1100px) {
+  .member {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  border: none;
+  padding: 16px;
+    text-align: center;
+  z-index: -1;
+  /* background-color: #f1f1f1; */
+}

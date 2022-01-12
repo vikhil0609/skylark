@@ -1,0 +1,49 @@
+.about-home {
+    width: 100%;
+  }
+  
+  .about-heading {
+    text-align: center;
+  }
+  
+  #about-head {
+    padding-top: 8%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  
+  #about-subhead {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #92959A;
+    margin-top: 1%;
+  }
+  .company-aim{
+      text-align: center;
+  }
+  #aim{
+      padding-top: 5%;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 4.5vw;
+      color: #2C323C;
+      line-height: 6vw;
+
+  }
+  .keyword{
+    color:#4bd4be;
+  }
+  @media screen and (max-width:1000px) {
+    .company-aim{
+      margin-left: 4%;
+      margin-right: 4%;
+    }
+    
+  }
