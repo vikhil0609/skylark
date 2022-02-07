@@ -1,7 +1,8 @@
 .navbar .navbar-nav .nav-link {
-  color: #000000;
+  color: #3bb0a0;
   font-size: 1.1em;
-
+  margin-left: 2em;
+  margin-right: 2em;
 }
 .navbar .navbar-nav .nav-link:hover{
   color: #808080;
@@ -18,5 +19,5 @@
   position: sticky;
   top: -1px;
   z-index: 100;
-  background-color: ivory;
+  background-color: transparent;
 }

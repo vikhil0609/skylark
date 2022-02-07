@@ -1,4 +1,4 @@
-.global {
+/* .global {
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -62,4 +62,147 @@
 
 .global-content .contentSecond div div {
   display: flex;
+} */
+
+/* Float four columns side by side */
+.global-main{
+  margin-top: 5%;
+}
+
+.global-column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  margin-right: 10%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.global-row {margin: 0 -5px;}
+
+.global-row1{
+padding-left: 35%;
+margin-bottom: 10%;
+}
+
+.global-row2{
+  padding-left: 18%;
+}
+
+/* Clear floats after the columns */
+.global-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 950px) {
+  .global-row1 {
+    /* margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+    line-height: 0.5em;
+    font-size: 2vh; */
+
+    text-align: center;
+  margin: auto;
+  justify-content: center;
+ padding-left: 0px;
+ display: flex;
+  }
+  .global-column{
+    margin-right:0px;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+  .global-row1 .global-column{
+    padding-left: 30px;
+  }
+  
+  .global-row2 {
+  
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+ padding-left: 0px;
+ display: flex;
+
+  } 
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 900px) {
+  .global-column {
+    display: block;
+    margin-bottom: 10px;
+    line-height: 0.5em;
+  
+  }
+
+  .global-row1{
+    padding-left: 0px;
+    margin-bottom: 1px;
+    margin-left: 16px;
+    margin-right: 0px;
+    display: flex;
+    flex-flow: column;
+    }
+  .global-row2{
+    padding-left: 16px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-flow: column;
+   
+  }
+
+  .global-row2 .global-column .global-card{
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+
+}
+
+/* Style the counter cards */
+.global-card {
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+}
+
+.global-column .global-card div img{
+  width: 50px;
+  margin-right: 5%;
+}
+
+.global-column .global-card h3{
+  color: #135B45;
+}
+
+.global-column .global-card h3{
+  text-align: left;
+}
+
+.global-column .global-card p{
+    color: #135B45;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.global-column .global-card div{
+  font-weight: bold;
+  color: #4B5159;
+  text-align: left;
+  display: flex;
+}
+
+.global-row1 .global-column .global-card{
+  padding:0px ;
 }

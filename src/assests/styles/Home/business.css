@@ -65,32 +65,32 @@ p {
 }
 
 #second {
-  /* background-image: url("../../images/close-up.jpg"); */
+  background-image: url("../../images/close-up.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #secondlast {
-  /* background-image: url("../../images/white-foam.jpg"); */
+  background-image: url("../../images/white-foam.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .mid {
-  /* background-image: url("../../images/top-view.jpg"); */
+  background-image: url("../../images/top-view.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #first {
-  /* background-image: url("../../images/tractor.jpg"); */
+  background-image: url("../../images/tractor.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #last {
-  /* background-image: url("../../images/eggShell.jpg"); */
+  background-image: url("../../images/eggShell.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -7,11 +7,11 @@ class Director extends React.Component{
     render(){
         return(
             <div className="director">
-                <div className="director-heading">
+                <div className="director-heading column">
                     <h2 style={{color:"#2C323C"}}>Word from the director</h2>
                 </div>
-                <div className="director-content">
-                    <div className="director-left">
+                <div className="director-content  column">
+                    <div className="director-left  column">
                         <h2>Mr. Jagbir Singh Dhull</h2>
                         <h4>MD, Skylark Hatcheries</h4>
                         <p>If there is one word that summarises Skylark, it is Passion - Passion for 
@@ -28,7 +28,7 @@ class Director extends React.Component{
                          business community at large. We command respect in the market today because our products have 
                          ensured higher profits for everyone involved</p>
                     </div>
-                    <div className="director-right">
+                    <div className="director-right  column">
                         <img src={Director_Image} />
                     </div>
                 </div>

@@ -28,11 +28,12 @@
 .sustain-right {
   display: flex;
   justify-content: space-between;
+  width: 70%;
 }
 
 .biogas {
-  width: 320px;
-  height: 450px;
+  width: 50%;
+  height: 80%;
   background-image: url("../../images/Sustainable_1.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -42,9 +43,9 @@
   /* box-shadow: 5px 10px grey; */
 }
 .fertilizer {
-  width: 320px;
-  height: 450px;
-  background-image: url("../../images/Sustainable_2.png");
+  width: 51%;
+  height: 80%;
+  background-image: url("../../images/Sustainable_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,10 +58,110 @@
   margin-top: 15%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 60px;
   color: white;
 }
 
 .sustain-right-head h3 {
   font-size: 2em;
   font-weight: bold;
+}
+
+@media screen and (max-width: 915px) {
+
+
+  .sustainable  {
+  
+    display: flex;
+    flex-flow: column;
+    height:fit-content;
+    padding-bottom: 50px;
+  }
+
+  .sustain-heading{
+    display: flex;
+    flex-flow: column;
+    width: auto;
+  }
+
+  .fertilizer{
+    margin-top: 10vh;
+    padding-bottom: 40px;
+    width: fit-content;
+  }
+  .biogas{
+   width: fit-content;
+  }
+
+  
+.sustain-heading p {
+  width: 100%;
+}
+  
+.sustain-right{
+  display: flex;
+  flex-flow: row;
+  padding-top:0px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;margin-top: 70px;
+
+}
+.fertilizer{
+  margin-top: 0px;
+}
+
+.sustain-right-head h3{
+  width: 100%;
+}
+
+.sustain-button{
+  width:fit-content;
+  padding: 5px 15px 5px 15px;
+  height: 20%;
+  font-size: 90%;
+}
+
+}
+
+@media screen and (max-width: 500px){
+
+  .sustain-right{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .biogas{
+    width: 100%;
+  }
+  .fertilizer{
+    margin-top: 10vh;
+    width: 100%;
+  }
+  .sustainable{
+    /* height: 150vh; */
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 300px){
+
+  /* .sustain-right{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .biogas{
+    width: 100%;
+  }
+  .fertilizer{
+    margin-top: 10vh;
+    width: 100%;
+  } */
+  .sustainable{
+    height: fit-content;
+  } 
+
+
 }
